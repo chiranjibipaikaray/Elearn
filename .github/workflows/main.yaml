@@ -3,7 +3,7 @@ on:
   push:
     branches:
      - main
-jobs:
+jobs: #job for build and push docker images
   job1:
     name: docker build & push
     runs-on: ubuntu-latest
