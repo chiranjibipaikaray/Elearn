@@ -23,7 +23,7 @@ jobs: #job for build and push docker images
        with:
           context: .
           push: true
-          tags: your-dockerhub-username/elearn-frontend:latest
+          tags: chiranjibi1122/elearn-frontend:latest
 
 
     
